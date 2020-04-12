@@ -1,0 +1,32 @@
+This is an example of how to use strategy design pattern. It was used in a video
+presentation for ECE141B (Spring 2020). The information that was covered in the
+video are below.
+
+Thanks for watching if you did, and I hope this example was helpful.
+
+
+                        --Strategy Pattern--
+Category: Behavioral
+
+Description: When an object has member objects, use derived classes from a
+common interface to allow the client to customize or change the functionality.
+
+Purpose: Minimize an object’s reliance on any other single object and follow the
+Open-Closed Principle (OCP).
+
+Note: The OCP dictates that code should be written to be extended easily without
+having to be changed. In other words, to add functionality, most of the work
+should be done in extending what exists, not changing the structure and existing
+functionality.
+
+Use Case: When an object can be composed of many different types of a “class” of
+objects (animals, tv brands, tire brands, etc), the strategy design pattern can
+be used to greatly reduce the number of classes required to satisfy all possible
+permutations of a problem.
+
+Example: See code.
+
+References and Other Useful Links:
+OCP: https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
+Design Pattern Explanations, UML, and examples in multiple languages:
+https://sourcemaking.com/design_patterns/strategy
